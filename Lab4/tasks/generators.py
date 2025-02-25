@@ -19,7 +19,7 @@ def squares(a, b):
         yield i ** 2
 
 def countdown(n):
-    for i in range(n, -1, -1):
+    for i in range(n, -1):
         yield i
 def display_menu():
     print("1. Generate squares from 0 to N")
